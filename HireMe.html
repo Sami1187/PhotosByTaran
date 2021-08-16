@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="newcss.css">
+  <script src="https://kit.fontawesome.com/7c4c946796.js" crossorigin="anonymous"></script>
+  <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Georama" rel="stylesheet">
+  <title> PhotosByTaran</title>
+
+</head>
+
+<body>
+  <header>
+
+    <div class="header">
+      <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class=checkbtn>
+          <i class="fas fa-bars"></i>
+
+        </label>
+
+        <label class="logo">PhotosByTaran</label>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="Portfolio.html">PORTFOLIO</a></li>
+          <li><a href="PreWedding.html">PRE-WEDDING</a></li>
+          <li><a href="Stories.html">LANDSCAPES/STORIES</a></li>
+          <li><a href="MyStory.html">MY STORY</a> </li>
+          <li><a href="HireMe.html">HIRE ME</a> </li>
+
+        </ul>
+
+      </nav>
+    </div>
+  </header>
+  <main>
+
+    <section>
+      <p>I hope you loved my work <i class="fa fa-heart"></i></p>
+      <h1>DO YOU WANT TO HIRE ME FOR PHOTOSHOOT?</h1><br>
+      <p>Fill out your details along with your Message/Query and I will contact you soon.</p>
+    </section>
+    <div class="form">
+      <hr>
+      <form id="contact_form" name="contact_form" method="GET" action="Join.html">
+        <fieldset>
+          <legend>Leave a Message</legend>
+          <div>
+            <label for="first_name">First Name: </label>
+            <input type="text" id="first_name" name="first_name" placeholder="Enter your first name" required>
+            <span class="star">*</span>
+
+          </div>
+          <div>
+            <label for="last_name">Last Name: </label>
+            <input type="text" id="last_name" name="last_name" placeholder="Enter your last name" required>
+            <span class="star">*</span>
+          </div>
+          <div>
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" placeholder="name@domain.com" required>
+            <span class="star">*</span>
+          </div>
+          <div>
+            <label for="phone">Phone Number:</label>
+            <input type="text" id="phone" name="phone" placeholder="999-999-9999" required><span class="star">*</span>
+            <!-- RegEx for phone number -> pattern="\d{3}[\-]\d[3][\-]\d{4}" -->
+
+          </div>
+
+
+
+          <label for="Message">Message/Query:</label>
+
+          <textarea name="Message" id="Message" rows="5" cols="45" placeholder="Write your Message/Query here"
+            required></textarea><br><br>
+
+          <div id="buttons">
+
+
+            <label>&nbsp;</label>
+            <input type="submit" class="btn cta-btn" id="submit" name="submit" value="Submit">
+            <input type="reset" class="btn cta-btn" id="reset" name="reset" value="Reset">
+
+          </div>
+        </fieldset>
+
+      </form>
+      <hr>
+    </div>
+  </main>
+  <br>
+  <div class="footer">
+    <div class="footer-content">
+      <div class="back_to_top">
+        <a href="#"><i class="fas fa-chevron-up"></i></a>
+      </div>
+      <div class="footer-section about">
+        <h1 class="logo-text">PhotosByTaran</h1><br>
+        <hr class="line">
+        <p>Join me in my journey as a Professional photographer. Show your support by following me on social media and
+          help me establish my brand. </p>
+        <div class="contact">
+          <span><i class="fas fa-phone"></i> &nbsp; +1 (678) 362-1782</span>
+          <span><i class="fas fa-envelope"></i> &nbsp; <a
+              href="mailto:info@photosbytaran.com">info@photosbytaran</a></span>
+        </div>
+      </div>
+      <div class="footer-section links">
+
+        <div class="socials">
+          <h2>Follow Me</h2>
+          <hr class="line"><br>
+          <a href="https://www.facebook.com/TARANJIT.DHALIWAL" target="_blank"> <i class="fab fa-facebook"></i></a>
+          <a href="https://www.instagram.com/tarandhaliwal/" target="_blank"> <i class="fab fa-instagram"></i></a>
+          <a href="#"> <i class="fab fa-twitter"></i></a>
+          <a href="#"> <i class="fab fa-youtube"></i></a>
+          <a href="#"> <i class="fab fa-behance"></i></a>
+        </div>
+
+        <div class="footer-bottom">
+          Copyright &copy; 2021 Photos By Taran | Designed by Samriti Rana<br>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
